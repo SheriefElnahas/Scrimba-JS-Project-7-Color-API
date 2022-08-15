@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Color API</title>
+  </head>
+  <body>
+    <div class="project-container">
+        <header class="header">
+            <input type="color" class="color-picker" value="#F55A5A" />
+      
+            <select class="colors-list" name="colorPicked" id="colors">
+              <option value="monochrome">Monochrome</option>
+              <option value="monochrome-dark">Monochrome-dark</option>
+              <option value="monochrome-light">Monochrome-light</option>
+              <option value="analogic">Analogic</option>
+              <option value="complement">Complement</option>
+              <option value="analogic-complement">Analogic-complement</option>
+              <option value="triad">Triad</option>
+            </select>
+            <button class="color-btn">Get color scheme</button>
+          </header>
+          <section>
+              <div class="background-colors-container">
+                  <div class="background-one"></div>
+                  <div class="background-two"></div>
+                  <div class="background-three"></div>
+                  <div class="background-four"></div>
+                  <div class="background-five"></div>
+              </div>
+              <div class="colors-value-container">
+                  <p class="color-one-value">#f55a5a</p>
+                  <p class="color-one-value">#2b283a</p>
+                  <p class="color-one-value">#FBF3AB</p>
+                  <p class="color-one-value">#AAD1B6</p>
+                  <p class="color-one-value">#A626D3</p>
+              </div>
+          </section>
+    </div>
+   
+  </body>
+</html>
